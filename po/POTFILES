@@ -1,7 +1,7 @@
 src/Application.vala
 src/MainWindow.vala
 src/Utils.vala
-src/Views/AbstractOnboardingView.vala
+src/Views/AbstractwelcomeView.vala
 src/Views/AppCenterView.vala
 src/Views/EarlyAccessView.vala
 src/Views/FinishView.vala

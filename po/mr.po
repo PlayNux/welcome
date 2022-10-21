@@ -1,17 +1,17 @@
-# Marathi translations for io.elementary.onboarding package.
-# Copyright (C) 2019 THE io.elementary.onboarding'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the io.elementary.onboarding package.
+# Marathi translations for io.playnux.welcome package.
+# Copyright (C) 2019 THE io.playnux.welcome'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the io.playnux.welcome package.
 # Automatically generated, 2019.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: io.elementary.onboarding\n"
+"Project-Id-Version: io.playnux.welcome\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-20 18:27+0000\n"
 "PO-Revision-Date: 2020-11-22 20:15+0000\n"
 "Last-Translator: Prachi Joshi <josprachi@yahoo.com>\n"
-"Language-Team: Marathi <https://l10n.elementary.io/projects/installer/"
-"onboarding/mr/>\n"
+"Language-Team: Marathi <https://l10n.playnux.io/projects/installer/"
+"welcome/mr/>\n"
 "Language: mr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -38,8 +38,8 @@ msgstr "पुढे"
 
 #: src/Views/AppCenterView.vala:22
 msgid ""
-"Get the apps you need on AppCenter. Curated apps are made for elementary OS "
-"and reviewed by elementary."
+"Get the apps you need on AppCenter. Curated apps are made for playnux OS "
+"and reviewed by playnux."
 msgstr ""
 "आपल्याला AppCenter वर आवश्यक अॅप्स मिळवा. पएलिमेंटरी OS साठी Curated अॅप्स तयार केले "
 "जातात आणि एलिमेंटरी द्वारे पुनरावलोकन केले जातात."
@@ -289,10 +289,10 @@ msgstr "सहभागी व्हा…"
 #: src/Views/WhatsNewView.vala:10
 msgid ""
 "Continue to set up some useful new features. For more detailed information "
-"about updates, check out <a href='https://blog.elementary.io'>our blog</a>."
+"about updates, check out <a href='https://blog.playnux.io'>our blog</a>."
 msgstr ""
 "काही उपयुक्त नवीन वैशिष्ट्ये सेट करणे सुरू ठेवा. अपडेट्सबद्दल अधिक तपशीलवार माहितीसाठी, "
-"आमच्या  <a href='https://blog.elementary.io'>ब्लॉग </a> ला भेट द्या."
+"आमच्या  <a href='https://blog.playnux.io'>ब्लॉग </a> ला भेट द्या."
 
 #: src/Views/WhatsNewView.vala:13
 msgid "What’s New"

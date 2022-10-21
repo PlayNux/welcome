@@ -1,5 +1,5 @@
 /*-
- * Copyright (c) 2019 elementary, Inc. (https://elementary.io)
+ * Copyright (c) 2019 playnux, Inc. (https://playnux.io)
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -15,11 +15,11 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-public class Onboarding.AppCenterView : AbstractOnboardingView {
+public class welcome.AppCenterView : AbstractwelcomeView {
     public AppCenterView () {
         Object (
             view_name: "appcenter",
-            description: _("Get the apps you need on AppCenter. Curated apps are made for elementary OS and reviewed by elementary."),
+            description: _("Get the apps you need on AppCenter. Curated apps are made for playnux OS and reviewed by playnux."),
             icon_name: "system-software-install",
             title: _("Get Some Apps")
         );
@@ -48,7 +48,7 @@ public class Onboarding.AppCenterView : AbstractOnboardingView {
 
         appcenter_button.clicked.connect (() => {
             try {
-                var appcenter = new DesktopAppInfo ("io.elementary.appcenter.desktop");
+                var appcenter = new DesktopAppInfo ("io.playnux.appcenter.desktop");
                 appcenter.launch (null, null);
             } catch (Error e) {
                 critical (e.message);

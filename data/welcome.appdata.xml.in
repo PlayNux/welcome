@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Copyright 2019 elementary, Inc. <contact@elementary.io> -->
+<!-- Copyright 2019 playnux, Inc. <contact@playnux.io> -->
 <component type="desktop-application">
-  <id>io.elementary.onboarding</id>
+  <id>io.playnux.welcome</id>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-3.0+</project_license>
   <name>Welcome</name>
@@ -75,12 +75,12 @@
     </release>
   </releases>
   <provides>
-    <binary>io.elementary.onboarding</binary>
+    <binary>io.playnux.welcome</binary>
   </provides>
   <content_rating type="oars-1.1" />
-  <translation type="gettext">io.elementary.onboarding</translation>
+  <translation type="gettext">io.playnux.welcome</translation>
   <compulsory_for_desktop>Pantheon</compulsory_for_desktop>
-  <developer_name>elementary, Inc.</developer_name>
-  <url type="homepage">https://elementary.io</url>
-  <url type="bugtracker">https://github.com/elementary/onboarding/issues</url>
+  <developer_name>playnux, Inc.</developer_name>
+  <url type="homepage">https://playnux.io</url>
+  <url type="bugtracker">https://github.com/playnux/welcome/issues</url>
 </component>

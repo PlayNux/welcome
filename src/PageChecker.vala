@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2017-2019 elementary, Inc.
+ * Copyright (c) 2017-2019 playnux, Inc.
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public
@@ -16,18 +16,18 @@
  * Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
  * Boston, MA 02110-1301 USA
  *
- * Authored by: Corentin Noël <corentin@elementary.io>
+ * Authored by: Corentin Noël <corentin@playnux.io>
  */
 
-public class Onboarding.PageChecker : Gtk.Button {
+public class welcome.PageChecker : Gtk.Button {
     public const double MIN_OPACITY = 0.4;
 
     public unowned Adw.Carousel carousel { get; construct; }
-    public unowned AbstractOnboardingView page { get; construct; }
+    public unowned AbstractwelcomeView page { get; construct; }
 
     private int page_number;
 
-    public PageChecker (Adw.Carousel carousel, AbstractOnboardingView page) {
+    public PageChecker (Adw.Carousel carousel, AbstractwelcomeView page) {
         Object (carousel: carousel, page: page);
     }
 

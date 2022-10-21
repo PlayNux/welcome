@@ -1,5 +1,5 @@
 /*-
- * Copyright 2020 elementary, Inc. (https://elementary.io)
+ * Copyright 2020 playnux, Inc. (https://playnux.io)
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -15,10 +15,10 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-public class Onboarding.StyleView : AbstractOnboardingView {
+public class welcome.StyleView : AbstractwelcomeView {
     private const string INTERFACE_SCHEMA = "org.gnome.desktop.interface";
     private const string STYLESHEET_KEY = "gtk-theme";
-    private const string STYLESHEET_PREFIX = "io.elementary.stylesheet.";
+    private const string STYLESHEET_PREFIX = "io.playnux.stylesheet.";
 
     private Pantheon.AccountsService? pantheon_act = null;
 
@@ -74,7 +74,7 @@ public class Onboarding.StyleView : AbstractOnboardingView {
 
     construct {
         var css_provider = new Gtk.CssProvider ();
-        css_provider.load_from_resource ("/io/elementary/onboarding/StyleView.css");
+        css_provider.load_from_resource ("/io/playnux/welcome/StyleView.css");
 
         string? user_path = null;
         try {
@@ -229,7 +229,7 @@ public class Onboarding.StyleView : AbstractOnboardingView {
         custom_bin.attach (prefer_scheduled_radio, 2, 0);
         custom_bin.attach (accent_box, 0, 1, 3);
 
-        var settings = new GLib.Settings ("io.elementary.settings-daemon.prefers-color-scheme");
+        var settings = new GLib.Settings ("io.playnux.settings-daemon.prefers-color-scheme");
 
         if (settings.get_string ("prefer-dark-schedule") == "sunset-to-sunrise") {
             prefer_scheduled_radio.active = true;

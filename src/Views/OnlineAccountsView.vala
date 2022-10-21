@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2021 elementary, Inc. (https://elementary.io)
+ * Copyright (c) 2021 playnux, Inc. (https://playnux.io)
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -17,7 +17,7 @@
  * Authored by: Marius Meisenzahl <mariusmeisenzahl@gmail.com>
  */
 
-public class Onboarding.OnlineAccountsView : AbstractOnboardingView {
+public class welcome.OnlineAccountsView : AbstractwelcomeView {
     public OnlineAccountsView () {
         Object (
             view_name: "onlineaccounts",

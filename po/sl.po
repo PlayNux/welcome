@@ -1,17 +1,17 @@
-# Slovenian translations for io.elementary.onboarding package.
-# Copyright (C) 2019 THE io.elementary.onboarding'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the io.elementary.onboarding package.
+# Slovenian translations for io.playnux.welcome package.
+# Copyright (C) 2019 THE io.playnux.welcome'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the io.playnux.welcome package.
 # Automatically generated, 2019.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: io.elementary.onboarding\n"
+"Project-Id-Version: io.playnux.welcome\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-20 18:27+0000\n"
 "PO-Revision-Date: 2020-02-03 21:08+0000\n"
 "Last-Translator: Marko <marko.dolar@gmail.com>\n"
-"Language-Team: Slovenian <https://l10n.elementary.io/projects/installer/"
-"onboarding/sl/>\n"
+"Language-Team: Slovenian <https://l10n.playnux.io/projects/installer/"
+"welcome/sl/>\n"
 "Language: sl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -40,11 +40,11 @@ msgstr "Naprej"
 #: src/Views/AppCenterView.vala:22
 #, fuzzy
 msgid ""
-"Get the apps you need on AppCenter. Curated apps are made for elementary OS "
-"and reviewed by elementary."
+"Get the apps you need on AppCenter. Curated apps are made for playnux OS "
+"and reviewed by playnux."
 msgstr ""
 "Pridobite aplikacije, ki jih potrebujete v AppCentru. Kurirane aplikacije so "
-"narejene za elementary OS in pregledane."
+"narejene za playnux OS in pregledane."
 
 #: src/Views/AppCenterView.vala:24
 msgid "Get Some Apps"
@@ -292,10 +292,10 @@ msgstr "Sodelujte z nami…"
 #: src/Views/WhatsNewView.vala:10
 msgid ""
 "Continue to set up some useful new features. For more detailed information "
-"about updates, check out <a href='https://blog.elementary.io'>our blog</a>."
+"about updates, check out <a href='https://blog.playnux.io'>our blog</a>."
 msgstr ""
 "Nadaljujte za nastavitev nekaterih novih uporabnih sposobnosti. Za podrobne "
-"informacije o posodobitvah preverite <a href='https://blog.elementary."
+"informacije o posodobitvah preverite <a href='https://blog.playnux."
 "io'>naš blog</a>."
 
 #: src/Views/WhatsNewView.vala:13

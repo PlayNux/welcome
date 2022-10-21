@@ -1,17 +1,17 @@
-# Galician translations for io.elementary.onboarding package.
-# Copyright (C) 2019 THE io.elementary.onboarding'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the io.elementary.onboarding package.
+# Galician translations for io.playnux.welcome package.
+# Copyright (C) 2019 THE io.playnux.welcome'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the io.playnux.welcome package.
 # Automatically generated, 2019.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: io.elementary.onboarding\n"
+"Project-Id-Version: io.playnux.welcome\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-20 18:27+0000\n"
 "PO-Revision-Date: 2019-09-22 17:23+0000\n"
 "Last-Translator: Daniel R. <riesp@pm.me>\n"
-"Language-Team: Galician <https://l10n.elementary.io/projects/installer/"
-"onboarding/gl/>\n"
+"Language-Team: Galician <https://l10n.playnux.io/projects/installer/"
+"welcome/gl/>\n"
 "Language: gl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -38,11 +38,11 @@ msgstr "Seguinte"
 
 #: src/Views/AppCenterView.vala:22
 msgid ""
-"Get the apps you need on AppCenter. Curated apps are made for elementary OS "
-"and reviewed by elementary."
+"Get the apps you need on AppCenter. Curated apps are made for playnux OS "
+"and reviewed by playnux."
 msgstr ""
 "Consiga as aplicacións que necesita no Centro de Aplicacións. Atopará "
-"aplicacións feitas a medida para elementary e revisadas polo equipo."
+"aplicacións feitas a medida para playnux e revisadas polo equipo."
 
 #: src/Views/AppCenterView.vala:24
 msgid "Get Some Apps"
@@ -285,11 +285,11 @@ msgstr "Participe…"
 #, fuzzy
 msgid ""
 "Continue to set up some useful new features. For more detailed information "
-"about updates, check out <a href='https://blog.elementary.io'>our blog</a>."
+"about updates, check out <a href='https://blog.playnux.io'>our blog</a>."
 msgstr ""
 "Agora configuraremos algunhas funcións útiles. Para obter información "
 "detallada sobre as actualizacións, consulte <a href='https://medium.com/"
-"elementaryos/tagged/updates'>o noso blog</a>."
+"playnuxos/tagged/updates'>o noso blog</a>."
 
 #: src/Views/WhatsNewView.vala:13
 msgid "What’s New"

@@ -1,17 +1,17 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the io.elementary.onboarding package.
+# This file is distributed under the same license as the io.playnux.welcome package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: io.elementary.onboarding\n"
+"Project-Id-Version: io.playnux.welcome\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-20 18:27+0000\n"
 "PO-Revision-Date: 2021-11-01 08:19+0000\n"
 "Last-Translator: Yuchen Deng <loaden@gmail.com>\n"
-"Language-Team: Chinese <https://l10n.elementary.io/projects/installer/"
-"onboarding/zh/>\n"
+"Language-Team: Chinese <https://l10n.playnux.io/projects/installer/"
+"welcome/zh/>\n"
 "Language: zh\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -38,10 +38,10 @@ msgstr "下一步"
 
 #: src/Views/AppCenterView.vala:22
 msgid ""
-"Get the apps you need on AppCenter. Curated apps are made for elementary OS "
-"and reviewed by elementary."
+"Get the apps you need on AppCenter. Curated apps are made for playnux OS "
+"and reviewed by playnux."
 msgstr ""
-"从应用中心中获取应用。受信任的应用是为 elementary OS 量身定制并由 elementary "
+"从应用中心中获取应用。受信任的应用是为 playnux OS 量身定制并由 playnux "
 "审核过的。"
 
 #: src/Views/AppCenterView.vala:24
@@ -275,7 +275,7 @@ msgstr ""
 #: src/Views/WhatsNewView.vala:10
 msgid ""
 "Continue to set up some useful new features. For more detailed information "
-"about updates, check out <a href='https://blog.elementary.io'>our blog</a>."
+"about updates, check out <a href='https://blog.playnux.io'>our blog</a>."
 msgstr ""
 
 #: src/Views/WhatsNewView.vala:13
@@ -283,7 +283,7 @@ msgid "What’s New"
 msgstr ""
 
 #~ msgid "Curated apps are not available in AppCenter"
-#~ msgstr "应用商店中 elementary 专属应用暂时不可用"
+#~ msgstr "应用商店中 playnux 专属应用暂时不可用"
 
 #~ msgid "The visual style is unfinished"
 #~ msgstr "视觉外观还未定型"

@@ -1,5 +1,5 @@
 /*
- * Copyright 2020-2021 elementary, Inc. (https://elementary.io)
+ * Copyright 2020-2021 playnux, Inc. (https://playnux.io)
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -15,10 +15,10 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
  * Authored by: Marius Meisenzahl <mariusmeisenzahl@gmail.com>
- *              Cassidy James Blaede <cassidy@elementary.io>
+ *              Cassidy James Blaede <cassidy@playnux.io>
  */
 
-public class Onboarding.EarlyAccessView : AbstractOnboardingView {
+public class welcome.EarlyAccessView : AbstractwelcomeView {
     public EarlyAccessView () {
         Object (
             view_name: "early-access",

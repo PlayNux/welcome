@@ -1,8 +1,8 @@
 [Desktop Entry]
 Name=Welcome
 Comment=Change common settings on first-run
-Exec=io.elementary.onboarding
-Icon=io.elementary.onboarding
+Exec=io.playnux.welcome
+Icon=io.playnux.welcome
 OnlyShowIn=Pantheon;
 Terminal=false
 Type=Application

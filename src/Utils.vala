@@ -1,5 +1,5 @@
 /*-
- * Copyright 2014-2020 elementary, Inc. (https://elementary.io)
+ * Copyright 2014-2020 playnux, Inc. (https://playnux.io)
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
- * Authored by: Corentin Noël <corentin@elementary.io>
+ * Authored by: Corentin Noël <corentin@playnux.io>
  *              Marvin Beckers <beckersmarvin@gmail.com>
  */
 
@@ -26,7 +26,7 @@ public class Utils {
                 _documentation_url = Environment.get_os_info (GLib.OsInfoKey.DOCUMENTATION_URL);
 
                 if (_documentation_url == null) {
-                    _documentation_url = "https://elementary.io/docs/learning-the-basics";
+                    _documentation_url = "https://playnux.io/docs/learning-the-basics";
                 }
             }
 
@@ -41,7 +41,7 @@ public class Utils {
                 _support_url = Environment.get_os_info (GLib.OsInfoKey.SUPPORT_URL);
 
                 if (_support_url == null) {
-                    _support_url = "https://elementary.io/support";
+                    _support_url = "https://playnux.io/support";
                 }
             }
 
@@ -56,7 +56,7 @@ public class Utils {
                 _os_name = Environment.get_os_info (GLib.OsInfoKey.NAME);
 
                 if (_os_name == null) {
-                    _os_name = "elementary OS";
+                    _os_name = "playnux OS";
                 }
             }
 

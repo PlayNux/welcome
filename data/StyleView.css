@@ -1,5 +1,5 @@
 /*
-* Copyright 2020 elementary, Inc. (https://elementary.io)
+* Copyright 2020 playnux, Inc. (https://playnux.io)
 *
 * This program is free software; you can redistribute it and/or
 * modify it under the terms of the GNU General Public
@@ -29,7 +29,7 @@ checkbutton .card {
 checkbutton .card.prefer-default {
     background-color: white;
     background-image:
-        url("resource:///io/elementary/onboarding/appearance-default.svg"),
+        url("resource:///io/playnux/welcome/appearance-default.svg"),
         linear-gradient(
             to bottom,
             alpha(@accent_color_300, 0.1),
@@ -40,7 +40,7 @@ checkbutton .card.prefer-default {
 checkbutton .card.prefer-dark {
     background-color: mix(@BLACK_300, @BLACK_500, 0.25);
     background-image:
-        url("resource:///io/elementary/onboarding/appearance-dark.svg"),
+        url("resource:///io/playnux/welcome/appearance-dark.svg"),
         linear-gradient(
             to bottom,
             alpha(@accent_color_300, 0.1),
@@ -51,7 +51,7 @@ checkbutton .card.prefer-dark {
 checkbutton .card.prefer-scheduled {
     background-size: 86px 64px, cover, cover;
     background-image:
-        url("resource:///io/elementary/onboarding/appearance-scheduled.svg"),
+        url("resource:///io/playnux/welcome/appearance-scheduled.svg"),
         linear-gradient(
             to bottom,
             alpha(@accent_color_300, 0.1),

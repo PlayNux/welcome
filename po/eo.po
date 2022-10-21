@@ -1,17 +1,17 @@
-# Esperanto translations for io.elementary.onboarding package.
-# Copyright (C) 2019 THE io.elementary.onboarding'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the io.elementary.onboarding package.
+# Esperanto translations for io.playnux.welcome package.
+# Copyright (C) 2019 THE io.playnux.welcome'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the io.playnux.welcome package.
 # Automatically generated, 2019.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: io.elementary.onboarding\n"
+"Project-Id-Version: io.playnux.welcome\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-20 18:27+0000\n"
 "PO-Revision-Date: 2020-03-17 14:09+0000\n"
 "Last-Translator: Shtonchjo <shtonchjo@gmail.com>\n"
-"Language-Team: Esperanto <https://l10n.elementary.io/projects/installer/"
-"onboarding/eo/>\n"
+"Language-Team: Esperanto <https://l10n.playnux.io/projects/installer/"
+"welcome/eo/>\n"
 "Language: eo\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -38,11 +38,11 @@ msgstr "Sekva"
 
 #: src/Views/AppCenterView.vala:22
 msgid ""
-"Get the apps you need on AppCenter. Curated apps are made for elementary OS "
-"and reviewed by elementary."
+"Get the apps you need on AppCenter. Curated apps are made for playnux OS "
+"and reviewed by playnux."
 msgstr ""
 "Akiri aplikaĵojn bezonataj en la Aplikaĵa Centro. Kontrolitaj aplikaĵoj "
-"estas tajloritaj por la operaciumo elementary kaj inspektitaj de elementary."
+"estas tajloritaj por la operaciumo playnux kaj inspektitaj de playnux."
 
 #: src/Views/AppCenterView.vala:24
 msgid "Get Some Apps"
@@ -284,10 +284,10 @@ msgstr "Engaĝiĝu…"
 #: src/Views/WhatsNewView.vala:10
 msgid ""
 "Continue to set up some useful new features. For more detailed information "
-"about updates, check out <a href='https://blog.elementary.io'>our blog</a>."
+"about updates, check out <a href='https://blog.playnux.io'>our blog</a>."
 msgstr ""
 "Daŭrigi agordadon de utilaj novaj funkcioj. Pliajn detalajn informojn pri "
-"ĝisdatigoj ĉe <a href='https://blog.elementary.io'>nia blogo</a>."
+"ĝisdatigoj ĉe <a href='https://blog.playnux.io'>nia blogo</a>."
 
 #: src/Views/WhatsNewView.vala:13
 msgid "What’s New"

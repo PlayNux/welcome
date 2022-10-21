@@ -1,5 +1,5 @@
 /*-
- * Copyright (c) 2019 elementary, Inc. (https://elementary.io)
+ * Copyright (c) 2019 playnux, Inc. (https://playnux.io)
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -15,7 +15,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-public abstract class AbstractOnboardingView : Gtk.Grid {
+public abstract class AbstractwelcomeView : Gtk.Grid {
     public string view_name { get; construct; }
     public string description { get; set; }
     public string icon_name { get; construct; }

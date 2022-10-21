@@ -1,5 +1,5 @@
 /*-
- * Copyright (c) 2019 elementary, Inc. (https://elementary.io)
+ * Copyright (c) 2019 playnux, Inc. (https://playnux.io)
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -15,10 +15,10 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-public class Onboarding.HouseKeepingView : AbstractOnboardingView {
+public class welcome.HouseKeepingView : AbstractwelcomeView {
     public uint old_files_age {
         set {
-            description = dngettext (Onboarding.GETTEXT_PACKAGE,
+            description = dngettext (welcome.GETTEXT_PACKAGE,
                 "Old files can be automatically deleted after %u day to save space and help protect your privacy.",
                 "Old files can be automatically deleted after %u days to save space and help protect your privacy.",
                 value
@@ -77,8 +77,8 @@ public class Onboarding.HouseKeepingView : AbstractOnboardingView {
         privacy_settings.bind ("remove-old-temp-files", temp_check, "active", GLib.SettingsBindFlags.DEFAULT);
         privacy_settings.bind ("remove-old-trash-files", trash_check, "active", GLib.SettingsBindFlags.DEFAULT);
 
-        var housekeeping_settings = new Settings ("io.elementary.settings-daemon.housekeeping");
-        housekeeping_settings.bind ("cleanup-downloads-folder", download_check, "active", GLib.SettingsBindFlags.DEFAULT);
-        housekeeping_settings.bind ("old-files-age", this, "old_files_age", GLib.SettingsBindFlags.GET);
+   //     var housekeeping_settings = new Settings ("io.playnux.settings-daemon.housekeeping");
+     //   housekeeping_settings.bind ("cleanup-downloads-folder", download_check, "active", GLib.SettingsBindFlags.DEFAULT);
+       // housekeeping_settings.bind ("old-files-age", this, "old_files_age", GLib.SettingsBindFlags.GET);
     }
 }

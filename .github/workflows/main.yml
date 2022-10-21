@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-22.04
     
     container:
-      image: elementary/docker:next-unstable
+      image: playnux/docker:next-unstable
     
     steps:
     - uses: actions/checkout@v3
@@ -36,4 +36,4 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Lint
-      run: io.elementary.vala-lint -d .
+      run: io.playnux.vala-lint -d .

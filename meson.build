@@ -1,5 +1,5 @@
 project(
-    'io.elementary.onboarding',
+    'io.playnux.welcome',
     'vala', 'c',
     version: '7.0.0'
 )

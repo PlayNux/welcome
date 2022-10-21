@@ -31,8 +31,8 @@ msgstr ""
 
 #: src/Views/AppCenterView.vala:22
 msgid ""
-"Get the apps you need on AppCenter. Curated apps are made for elementary OS "
-"and reviewed by elementary."
+"Get the apps you need on AppCenter. Curated apps are made for playnux OS "
+"and reviewed by playnux."
 msgstr ""
 
 #: src/Views/AppCenterView.vala:24
@@ -257,7 +257,7 @@ msgstr ""
 #: src/Views/WhatsNewView.vala:10
 msgid ""
 "Continue to set up some useful new features. For more detailed information "
-"about updates, check out <a href='https://blog.elementary.io'>our blog</a>."
+"about updates, check out <a href='https://blog.playnux.io'>our blog</a>."
 msgstr ""
 
 #: src/Views/WhatsNewView.vala:13

@@ -6,7 +6,7 @@ vala_files = [
     'PantheonAccountsServicePlugin.vala',
     'Switcher.vala',
     'Utils.vala',
-    'Views/AbstractOnboardingView.vala',
+    'Views/AbstractwelcomeView.vala',
     'Views/AppCenterView.vala',
     'Views/EarlyAccessView.vala',
     'Views/FinishView.vala',

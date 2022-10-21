@@ -1,5 +1,5 @@
 /*-
- * Copyright (c) 2019 elementary, Inc. (https://elementary.io)
+ * Copyright (c) 2019 playnux, Inc. (https://playnux.io)
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -15,7 +15,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-public class Onboarding.WelcomeView : AbstractOnboardingView {
+public class welcome.WelcomeView : AbstractwelcomeView {
     public WelcomeView () {
         Object (
             view_name: "welcome",
@@ -39,7 +39,7 @@ public class Onboarding.WelcomeView : AbstractOnboardingView {
         );
 
         var getinvolved_link = new ImageLinkButton (
-            "https://elementary.io/get-involved",
+            "https://playnux.io/get-involved",
             _("Get Involved…"),
             "applications-development-symbolic"
         );

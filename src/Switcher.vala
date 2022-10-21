@@ -18,7 +18,7 @@
 //
 
 
-public class Onboarding.Switcher : Gtk.Box {
+public class welcome.Switcher : Gtk.Box {
     public Adw.Carousel carousel { get; construct; }
     private bool has_enough_children {
         get {
@@ -50,9 +50,9 @@ public class Onboarding.Switcher : Gtk.Box {
     }
 
     private void add_child (Gtk.Widget widget) {
-        assert (widget is AbstractOnboardingView);
+        assert (widget is AbstractwelcomeView);
 
-        var button = new PageChecker (carousel, (AbstractOnboardingView) widget);
+        var button = new PageChecker (carousel, (AbstractwelcomeView) widget);
         append (button);
     }
 }

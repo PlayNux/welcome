@@ -1,11 +1,11 @@
-# Burmese translations for io.elementary.onboarding package.
-# Copyright (C) 2019 THE io.elementary.onboarding'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the io.elementary.onboarding package.
+# Burmese translations for io.playnux.welcome package.
+# Copyright (C) 2019 THE io.playnux.welcome'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the io.playnux.welcome package.
 # Automatically generated, 2019.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: io.elementary.onboarding\n"
+"Project-Id-Version: io.playnux.welcome\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-20 18:27+0000\n"
 "PO-Revision-Date: 2019-04-11 16:53-0700\n"
@@ -35,8 +35,8 @@ msgstr ""
 
 #: src/Views/AppCenterView.vala:22
 msgid ""
-"Get the apps you need on AppCenter. Curated apps are made for elementary OS "
-"and reviewed by elementary."
+"Get the apps you need on AppCenter. Curated apps are made for playnux OS "
+"and reviewed by playnux."
 msgstr ""
 
 #: src/Views/AppCenterView.vala:24
@@ -260,7 +260,7 @@ msgstr ""
 #: src/Views/WhatsNewView.vala:10
 msgid ""
 "Continue to set up some useful new features. For more detailed information "
-"about updates, check out <a href='https://blog.elementary.io'>our blog</a>."
+"about updates, check out <a href='https://blog.playnux.io'>our blog</a>."
 msgstr ""
 
 #: src/Views/WhatsNewView.vala:13

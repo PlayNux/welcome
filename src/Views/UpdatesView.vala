@@ -1,9 +1,9 @@
 /*
  * SPDX-License-Identifier: GPL-3.0-or-later
- * SPDX-FileCopyrightText: 2022 elementary, Inc. (https://elementary.io)
+ * SPDX-FileCopyrightText: 2022 playnux, Inc. (https://playnux.io)
  */
 
-public class Onboarding.UpdatesView : AbstractOnboardingView {
+public class welcome.UpdatesView : AbstractwelcomeView {
     public UpdatesView () {
         Object (
             view_name: "updates",
@@ -22,7 +22,7 @@ public class Onboarding.UpdatesView : AbstractOnboardingView {
             halign = Gtk.Align.START
         };
 
-        var settings = new GLib.Settings ("io.elementary.appcenter.settings");
+        var settings = new GLib.Settings ("io.playnux.appcenter.settings");
         settings.bind ("automatic-updates", switch, "active", GLib.SettingsBindFlags.DEFAULT);
 
         custom_bin.attach (switch_label, 0, 0);

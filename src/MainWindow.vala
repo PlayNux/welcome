@@ -1,5 +1,5 @@
 /*
- * Copyright 2019–2020 elementary, Inc. (https://elementary.io)
+ * Copyright 2019–2020 playnux, Inc. (https://playnux.io)
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -14,10 +14,10 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
- * Authored by: Corentin Noël <corentin@elementary.io>
+ * Authored by: Corentin Noël <corentin@playnux.io>
  */
 
-public class Onboarding.MainWindow : Gtk.ApplicationWindow {
+public class welcome.MainWindow : Gtk.ApplicationWindow {
     public string[] viewed { get; set; }
     private static GLib.Settings settings;
 
@@ -28,14 +28,14 @@ public class Onboarding.MainWindow : Gtk.ApplicationWindow {
         Object (
             deletable: false,
             resizable: false,
-            icon_name: "io.elementary.onboarding",
+            icon_name: "io.playnux.welcome",
             title: _("Set up %s").printf (Utils.os_name),
             width_request: 486
         );
     }
 
     static construct {
-        settings = new GLib.Settings ("io.elementary.onboarding");
+        settings = new GLib.Settings ("io.playnux.welcome");
     }
 
     construct {
@@ -65,7 +65,7 @@ public class Onboarding.MainWindow : Gtk.ApplicationWindow {
 
         if (!("style" in viewed)) {
             var interface_settings = new GLib.Settings ("org.gnome.desktop.interface");
-            if (interface_settings.get_string ("gtk-theme").has_prefix ("io.elementary.stylesheet.")) {
+            if (interface_settings.get_string ("gtk-theme").has_prefix ("io.playnux.stylesheet.")) {
                 var style_view = new StyleView ();
                 carousel.append (style_view);
             }
@@ -86,7 +86,7 @@ public class Onboarding.MainWindow : Gtk.ApplicationWindow {
             carousel.append (onlineaccounts_view);
         }
 
-        if (Environment.find_program_in_path ("io.elementary.appcenter") != null) {
+        if (Environment.find_program_in_path ("io.playnux.appcenter") != null) {
           if (!("appcenter" in viewed)) {
               var appcenter_view = new AppCenterView ();
               carousel.append (appcenter_view);
@@ -194,9 +194,9 @@ public class Onboarding.MainWindow : Gtk.ApplicationWindow {
         skip_button.clicked.connect (() => {
             for (var view_count = 0; view_count < carousel.get_n_pages (); view_count++) {
                 var view = carousel.get_nth_page (view_count);
-                assert (view is AbstractOnboardingView);
+                assert (view is AbstractwelcomeView);
 
-                var view_name = ((AbstractOnboardingView) view).view_name;
+                var view_name = ((AbstractwelcomeView) view).view_name;
 
                 mark_viewed (view_name);
             }
@@ -214,16 +214,16 @@ public class Onboarding.MainWindow : Gtk.ApplicationWindow {
         });
     }
 
-    private AbstractOnboardingView? get_visible_view () {
+    private AbstractwelcomeView? get_visible_view () {
         var index = (int) Math.round (carousel.position);
 
         var widget = carousel.get_nth_page (index);
 
-        if (!(widget is AbstractOnboardingView)) {
+        if (!(widget is AbstractwelcomeView)) {
             return null;
         }
 
-        return (AbstractOnboardingView) widget;
+        return (AbstractwelcomeView) widget;
     }
 
     private void mark_viewed (string view_name) {
